@@ -1,299 +1,238 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-body{
-    background-color: rgb(94, 45, 0);
-    background-image: url(../img/fondo5.jpg);
-    font-size: cover;
-    color: rgb(26, 225, 222);
-    font-family: 'Caveat', cursive;
-}
-.portada{
-    background-image: url(../img/laga.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-}
-.logo1{
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  background-image: url(../img/fondo5.jpg);
+  font-size: cover;
+  color: #1ae1de;
+  font-family: 'Caveat', cursive; }
+
+header .portada {
+  background-image: url(../img/laga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px; }
+  header .portada .logo1 {
     display: flex;
     justify-content: center;
-    position: relative; top: 200px;
-}
-.logo1 img{
+    position: relative;
+    top: 200px; }
+  header .portada .logo1 img {
     border-radius: 70%;
     width: 200px;
-    height: 200px;     
-} 
-.principio{
-    position: relative; top: 240px;
-    font-family: 'Caveat', cursive;
-}
-.principio ul li{
+    height: 200px; }
+  header .portada .principio ul li {
     list-style-type: none;
-    font-weight:900;
-    font-size: 1.2rem;
-}
-.principio img{
+    position: relative;
+    top: 240px;
+    font-family: 'Caveat', cursive; }
+  header .portada .principio img {
     width: 40px;
     margin: 3px;
-    border-radius: 15px;
-}
-.principio ul li a{
+    border-radius: 15px; }
+  header .portada .principio ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    margin: 7px;
-}
+    color: black;
+    margin: 7px; }
 
-.carousell{
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-columns: 100%;
-    padding: 20px;
-    width: 98%;
-    
-}
-.bcar1 img{
+main .carousell {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 100%;
+  padding: 20px;
+  width: 98%; }
+  main .carousell .bcar1 img {
     padding: 10px;
     width: 95%;
-    border-radius: 20px;
-}
-.bcar2 img{
+    border-radius: 20px; }
+  main .carousell .bcar2 img {
     padding: 10px;
     width: 95%;
-    border-radius: 20px;
-}
-.car1{
+    border-radius: 20px; }
+  main .carousell .car1 {
     padding: 10px;
     padding: 20px;
-    width: 100%;
-}
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-}
-.hijo{
+    width: 100%; }
+
+main .contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%; }
+  main .contenedor .hijo {
     max-width: 90%;
     margin: 20px;
     border: gray 1px solid;
-    border-radius: 2%;
-}
+    border-radius: 2%; }
+    main .contenedor .hijo img {
+      width: 100%;
+      height: 30vh;
+      transition: 1s;
+      border-radius: 2%; }
+    main .contenedor .hijo img:hover {
+      transform: scale(1.1);
+      transition: 1s; }
 
-.hijo img{
-    width: 100%;
-    height: 30vh;
-    transition: 1s;
-    border-radius: 2%;
-}
-.hijo img:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.mainproductos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-  }
-.mainproductos div{
+.mainproductos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%; }
+  .mainproductos div {
     margin: 10px;
     border-radius: 10px;
-    border: gray 1px solid;
-}
+    border: gray 1px solid; }
+    .mainproductos div img {
+      width: 100%;
+      height: 30vh;
+      transition: 0.9s;
+      border-radius: 2%; }
+    .mainproductos div img:hover {
+      transform: scale(1.2);
+      transition: 0.6s; }
 
-.mainproductos div img:hover{
-    transform: scale(1.2);
-    transition: 0.7s;
-}
-
-.mainindex div{
-    margin: 10px;
-}
-.mainindex div img{
-    border-radius: 10px;
-    width: 250px;
-    height: 250px;
-    justify-content: space-around; 
-}
-.form1{
-    color: rgb(255, 255, 255);
-    width: 900px;
-    display: block;
-    padding: 30px;
-    margin: auto;
-    font-size: 18px;
-    text-align: center;
-    
-}
-.form1 div{
-    display: inline-block;
-    padding: 10px;
-    margin: 5px;
-    background-color: rgba(38, 126, 122, 0.368);
-}
-.controls{
-    width: 300px;
-    display: block;
-    font-size: 18px;
-    font-family: 'Caveat', cursive;
-}
-.legend1{
-    font-size: 30px;
-    text-align: center;
-}
-
-.consultasf1{
-    text-align: center;
-    margin: 4px;
-    position: relative; bottom: 20px;
-    font-size: 1.5rem;
-
-}
-.consultasf2{
-    text-align: center;
-    margin: 4px;
-    font-size: 1.3rem;
-}
-
-.promo{
-    margin: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.promo img{
+.promo {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%; }
+  .promo div img {
     width: 90%;
     height: 40vh;
-    border-radius: 6px;
-    padding: 20px;
-}
-.pormayor{
-    color: rgb(94, 255, 0);
-    letter-spacing: 1px;
-    line-height: 1.3;
+    border-radius: 15%;
+    padding: 20px; }
+
+.pormayor {
+  color: #5eff00;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  padding: 30px;
+  margin: 50px; }
+  .pormayor .pormayor h1 {
+    color: red; }
+
+.form1 {
+  color: white;
+  width: 900px;
+  display: block;
+  padding: 30px;
+  margin: auto;
+  font-size: 18px;
+  text-align: center; }
+
+.form1 div {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgba(38, 126, 122, 0.368); }
+
+.controls {
+  width: 300px;
+  display: block;
+  font-size: 18px;
+  font-family: 'Caveat', cursive; }
+
+.legend1 {
+  font-size: 30px;
+  text-align: center; }
+
+.fot {
+  width: 100%;
+  max-height: 180px;
+  background-color: rgba(0, 0, 0, 0.772);
+  text-decoration: none;
+  display: inline-block; }
+  .fot h2 {
+    text-align: center; }
+  .fot .consultasf1 {
     text-align: center;
-    font-family: 'Caveat', cursive;
-    font-size: 1.1rem;
-    padding: 30px;
-    margin: 50px;
-}
-
-.pormayor h1{
-    color: rgb(255, 0, 0);
-}
-
-footer{
-    width: 100%;
-    max-height: 200px;
-    background-color: rgba(0, 0, 0, 0.772);
-    text-decoration: none;
-    display: inline-block;
-}
-
-footer button{
-    position: relative; bottom: 20px;
-    margin-left: 35px;
-}
-
-footer img{
+    margin: 4px;
+    position: relative;
+    bottom: 20px;
+    font-size: 1.5rem; }
+  .fot .consultasf2 {
+    text-align: center;
+    margin: 4px;
+    font-size: 1.3rem; }
+  .fot .fiw button {
+    position: relative;
+    bottom: 20px;
+    margin-left: 35px; }
+  .fot .fiw img {
     width: 50px;
-    border-radius: 15px;
-}
-.fiw{
+    border-radius: 15px; }
+  .fot .fiw {
     float: left;
-    position: relative; bottom: 40px;
-}
-@media only screen and (max-width: 650px){
-    .portada{
-        background-image: url(../img/laga.png);
-        width: 100%;
-        height: 54vh;
-        align-items: center;
-        background-size: cover;
-    }
-    .logo1{
-        display: flex;
-        justify-content: center;
-    }
-    .logo1 img{
-        border-radius: 70%;
-        width: 100px;
-        height: 100px;     
-    } 
-    .principio{
-        display: flex;
-        justify-content: left;
-        font-family: 'Caveat', cursive;
-    }
-    .principio ul li{
-        list-style-type: none;
-        font-weight:900;
-        font-size: 0.9rem;
-    }
-    .principio img{
-        width: 25px;
-        border-radius: 15px;
-    }
-    .principio ul li a{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-    }
-    .carousell{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 95%;
-        margin: 5;
-        padding: 5;
-    }
-    .contenedor{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-    }
-    .hijo img{
-        width: 100%;
-    }
-    footer{
-        width: 100%;
-        .fit{
-            width: 50px;
-            margin-top: 40px;
-            position: relative; left: 170px;
-            padding: 10px;
-        }
-        text-align: center;
-        
-    }
-    .mainproductos{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-        padding: 10px;
-        
-        
-    }
-    .mainproductos div{
-        width: 90%;
+    margin: 10px;
+    position: relative;
+    bottom: 60px; }
 
-        }
-    .mainproductos div img{
-        width: 100%;
-    }
-    .promo{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 20px;
-        margin: 20px;
-    }
-    .promo img{
-        margin: 5px;
-    }
-    .form1{
-        width: auto;
-        padding: 0;
-        margin: 0;
-    }
-    }
+@media only screen and (max-width: 480px) {
+  .portada {
+    background-image: url(../img/laga.png);
+    width: 100%;
+    height: 54vh;
+    align-items: center;
+    background-size: cover; }
+  .logo1 {
+    display: flex;
+    justify-content: center; }
+  .logo1 img {
+    border-radius: 70%;
+    width: 100px;
+    height: 100px; }
+  .principio {
+    display: flex;
+    justify-content: left;
+    font-family: 'Caveat', cursive; }
+  .principio ul li {
+    list-style-type: none;
+    font-weight: 900;
+    font-size: 0.9rem; }
+  .principio img {
+    width: 25px;
+    border-radius: 15px; }
+  .principio ul li a {
+    text-decoration: none;
+    color: black; }
+  .carousell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin: 5;
+    padding: 5; }
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 10px; }
+    .contenedor .hijo {
+      width: 100%; }
+    .contenedor div img {
+      width: 100%; }
+  .mainproductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 10px; }
+  .mainproductos div {
+    width: 90%; }
+  .mainproductos div img {
+    width: 100%; }
+  .promo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin: 20px; }
+  .promo img {
+    margin: 5px; }
+  .form1 {
+    width: auto;
+    padding: 0;
+    margin: 0; } }

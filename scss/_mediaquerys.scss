@@ -1,0 +1,88 @@
+@media only screen and (max-width: 480px){
+    .portada{
+        background-image: url(../img/laga.png);
+        width: 100%;
+        height: 54vh;
+        align-items: center;
+        background-size: cover;
+    }
+    .logo1{
+        display: flex;
+        justify-content: center;
+    }
+    .logo1 img{
+        border-radius: 70%;
+        width: 100px;
+        height: 100px;     
+    } 
+    .principio{
+        display: flex;
+        justify-content: left;
+        font-family: 'Caveat', cursive;
+    }
+    .principio ul li{
+        list-style-type: none;
+        font-weight:900;
+        font-size: 0.9rem;
+    }
+    .principio img{
+        width: 25px;
+        border-radius: 15px;
+    }
+    .principio ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    .carousell{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        margin: 5;
+        padding: 5;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        padding: 10px;
+    
+    .hijo{
+        width: 100%;
+    }
+    div img{
+        width: 100%;
+
+    }
+}
+    .mainproductos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        padding: 10px;
+        
+        
+    }
+    .mainproductos div{
+        width: 90%;
+
+        }
+    .mainproductos div img{
+        width: 100%;
+    }
+    .promo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        margin: 20px;
+    }
+    .promo img{
+        margin: 5px;
+    }
+    .form1{
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    }

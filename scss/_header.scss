@@ -1,0 +1,36 @@
+header{
+    .portada{
+        background-image: url(../img/laga.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        .logo1{
+            display: flex;
+            justify-content: center;
+            position: relative; top: 200px;
+        }
+        .logo1 img{
+            border-radius: 70%;
+            width: 200px;
+            height: 200px;     
+        } 
+        .principio{
+            & ul li{
+                list-style-type: none;
+                position: relative; top: 240px;
+                font-family: 'Caveat', cursive;
+            }
+            & img{
+                width: 40px;
+                margin: 3px;
+                border-radius: 15px;
+            }
+            & ul li a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                margin: 7px;
+            }
+        }
+    }
+
+}
