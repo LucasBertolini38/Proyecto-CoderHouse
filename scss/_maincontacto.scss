@@ -1,5 +1,5 @@
 .form1{
-    color: rgb(255, 255, 255);
+    color: $texto;
     width: 900px;
     display: block;
     padding: 30px;
@@ -12,7 +12,7 @@
     display: inline-block;
     padding: 10px;
     margin: 5px;
-    background-color: rgba(38, 126, 122, 0.368);
+    background-color: $fondoForm;
 }
 .controls{
     width: 300px;
@@ -22,5 +22,10 @@
 }
 .legend1{
     font-size: 30px;
+    text-align: center;
+}
+.descripcontac{
+    color: $textinfo;
+    font-size: 1.5rem;
     text-align: center;
 }

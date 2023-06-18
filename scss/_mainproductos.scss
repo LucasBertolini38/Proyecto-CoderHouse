@@ -2,12 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
-    
-  
    & div{
+    background-color: $fondoimg;
+    text-align: center;
     margin: 10px;
     border-radius: 10px;
-    border: gray 1px solid;
+    border: $bordes 1px solid;
 
   & img{
     width: 100%;
